@@ -1,0 +1,28 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [157] using StatReload
+INFO:     Started server process [159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:46126 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:46130 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46152 - "OPTIONS /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46164 - "OPTIONS /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46130 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46138 - "GET /api/analytics?limit=200 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46152 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46130 - "GET /api/analytics?limit=200 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46164 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49898 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49898 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49902 - "GET /api/analytics?limit=200 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49908 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49898 - "GET /api/analytics?limit=200 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46166 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49912 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49912 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49912 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46270 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46254 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46254 - "POST /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46254 - "POST /api/analytics HTTP/1.1" 200 OK
